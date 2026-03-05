@@ -1,0 +1,5256 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Demo User",
+            "email": "demo@example.com",
+            "password": "password",
+            "role": "user"
+        },
+        {
+            "name": "harini",
+            "email": "hariniprithivirajan@gmail.com",
+            "password": "$2a$08$aWzVqqAmMTZOt8j/LDpdFevWwgJsWksbTGOe9PNFzcai/zXIbTs3K",
+            "role": "user",
+            "id": 1771835309964
+        }
+    ],
+    "resumes": [
+        {
+            "id": 1715690000000,
+            "userId": 1,
+            "fileName": "Resume_v1.pdf",
+            "uploadDate": "2024-05-14T10:00:00.000Z",
+            "roleTarget": "Software Engineer",
+            "matches": []
+        },
+        {
+            "id": 1715790000000,
+            "userId": 1,
+            "fileName": "Resume_Final.pdf",
+            "uploadDate": "2024-05-15T14:30:00.000Z",
+            "roleTarget": "Product Manager",
+            "matches": []
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771835407650
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771835524914
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771835602770
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771835631608
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771835686030
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771835698185
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "data-scientist",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771836800679
+        },
+        {
+            "userId": 1,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771837020428
+        },
+        {
+            "userId": 1,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771837048469
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771837117176
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771837134474
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771837872491
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771837914937
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "data-scientist",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771837967660
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "data-scientist",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771838040339
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "data-scientist",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771838121731
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "data-scientist",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771838142067
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771838612409
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771838658845
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771838676198
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771838730856
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771838747027
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771839206616
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771840611097
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771840795329
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771841148093
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771841163984
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771841391473
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "STA Lab Manual R2021.pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "testuser@example.com",
+                "phone": "123456789012",
+                "skills": [
+                    "Java",
+                    "Management",
+                    "Writing",
+                    "Design"
+                ],
+                "workSnippet": "No detailed work history found.",
+                "educationSnippet": "No detailed education found."
+            },
+            "matches": [
+                {
+                    "id": 109,
+                    "title": "Java Developer",
+                    "company": "Enterprise Corp",
+                    "location": "Seattle, WA",
+                    "requiredSkills": [
+                        "Java",
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "tags": [
+                        "JAVA",
+                        "ENTERPRISE",
+                        "STABLE"
+                    ],
+                    "icon": "☕",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Spring",
+                        "Hibernate",
+                        "Microservices"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 111,
+                    "title": "QA Engineer",
+                    "company": "QualityFirst",
+                    "location": "Denver, CO",
+                    "requiredSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation",
+                        "Java"
+                    ],
+                    "tags": [
+                        "QA",
+                        "TESTING",
+                        "AUTOMATION"
+                    ],
+                    "icon": "🔍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Selenium",
+                        "Testing",
+                        "Automation"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 115,
+                    "title": "HR Specialist",
+                    "company": "PeopleOps",
+                    "location": "Miami, FL",
+                    "requiredSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication",
+                        "Management"
+                    ],
+                    "tags": [
+                        "HR",
+                        "PEOPLE",
+                        "CULTURE"
+                    ],
+                    "icon": "👥",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "HR",
+                        "Recruiting",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 120,
+                    "title": "Technical Writer",
+                    "company": "DocuTech",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Writing",
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "tags": [
+                        "WRITING",
+                        "DOCS",
+                        "FLEXIBLE"
+                    ],
+                    "icon": "📝",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Documentation",
+                        "Technical",
+                        "English"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 0,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771841407153
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "RESUME (2).pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "hariniprithivirajan@gmail.com",
+                "phone": "9363081062",
+                "skills": [
+                    "Python",
+                    "HTML",
+                    "CSS",
+                    "Leadership",
+                    "Problem Solving",
+                    "Teamwork",
+                    "Management",
+                    "Design",
+                    "Figma"
+                ],
+                "workSnippet": "OBJECTIVE\nComputer Science Engineering student with a  strong foundation\nin web design,   development and UIUX principles. Skilled in\ncreating responsive, user-centric interfaces using modern web\ntechnologies and driven to apply design thinking and technical",
+                "educationSnippet": "A.V.C. College of Engineering - Mayiladuthurai\nGuru Gana Sambandar  Mission Metric Higher Secondary                  \n        School Mayiladuthurai Class 12 (2021-2023)                            \nB.E Computer Science Engineering (2023-2027)\nGuru Gana Sambandar  Mission Metric Higher Secondary                  \n        School Mayiladuthurai Class 10(2020-2021)                            \nTeamwork\nTime Management\nCreative Thinking\nLeadership\nProblem solving\nEnglish \nTamil\nHindi (read)\nHARINI P\nCOMPUTER SCIENCE AND ENGINEERING\nCompleted One Month Internship Training On UIUX  \nConducted by NoviTech R&D Private Limited.\nParticipated in smart India hackathon-Development Of A\nTravel Related Software App \ncompleted One Month Masterclass On UIUX Conducted by  \nNoviTech R&D Private Limited.\nVS Code\nFigma\nAdobe XD\nwww.linkedin.com/in\n/p-harini-7a7b84336"
+            },
+            "matches": [
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 50,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 105,
+                    "title": "Data Scientist",
+                    "company": "AI Solutions",
+                    "location": "Boston, MA",
+                    "requiredSkills": [
+                        "Python",
+                        "Pandas",
+                        "Machine Learning",
+                        "SQL"
+                    ],
+                    "tags": [
+                        "AI",
+                        "DATA",
+                        "RESEARCH"
+                    ],
+                    "icon": "📊",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Pandas",
+                        "Machine Learning",
+                        "SQL"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 106,
+                    "title": "UX/UI Designer",
+                    "company": "Creative Studio",
+                    "location": "London, UK",
+                    "requiredSkills": [
+                        "Figma",
+                        "Sketch",
+                        "Prototyping",
+                        "Wireframing"
+                    ],
+                    "tags": [
+                        "DESIGN",
+                        "CREATIVE",
+                        "ONSITE"
+                    ],
+                    "icon": "🎨",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Sketch",
+                        "Prototyping",
+                        "Wireframing"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 107,
+                    "title": "Product Manager",
+                    "company": "FinTech Co",
+                    "location": "Chicago, IL",
+                    "requiredSkills": [
+                        "Agile",
+                        "Scrum",
+                        "Leadership",
+                        "Communication"
+                    ],
+                    "tags": [
+                        "PRODUCT",
+                        "FINTECH",
+                        "MGMT"
+                    ],
+                    "icon": "📈",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Agile",
+                        "Scrum",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 110,
+                    "title": "Python Developer",
+                    "company": "PyData",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Python",
+                        "Django",
+                        "Flask",
+                        "API"
+                    ],
+                    "tags": [
+                        "PYTHON",
+                        "WEB",
+                        "REMOTE"
+                    ],
+                    "icon": "🐍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Django",
+                        "Flask",
+                        "API"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771841932380
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "RESUME (1).pdf",
+            "roleTarget": "product-manager",
+            "extracted": {
+                "email": "hariniprithivirajan@gmail.com",
+                "phone": "9363081062",
+                "skills": [
+                    "Python",
+                    "HTML",
+                    "CSS",
+                    "Leadership",
+                    "Problem Solving",
+                    "Teamwork",
+                    "Management",
+                    "Design",
+                    "Figma"
+                ],
+                "workSnippet": "OBJECTIVE\nComputer Science Engineering student with a  strong foundation\nin web design,   development and UIUX principles. Skilled in\ncreating responsive, user-centric interfaces using modern web\ntechnologies and driven to apply design thinking and technical",
+                "educationSnippet": "A.V.C. College of Engineering - Mayiladuthurai\nGuru Gana Sambandar  Mission Metric Higher Secondary                  \n        School Mayiladuthurai Class 12 (2021-2023)                            \nB.E Computer Science Engineering (2023-2027)\nGuru Gana Sambandar  Mission Metric Higher Secondary                  \n        School Mayiladuthurai Class 10(2020-2021)                            \nTeamwork\nTime Management\nCreative Thinking\nLeadership\nProblem solving\nEnglish \nTamil\nHindi (read)\nHARINI P\nCOMPUTER SCIENCE AND ENGINEERING\nCompleted One Month Internship Training On UIUX  \nConducted by NoviTech R&D Private Limited.\nParticipated in smart India hackathon-Development Of A\nTravel Related Software App \ncompleted One Month Masterclass On UIUX Conducted by  \nNoviTech R&D Private Limited.\nVS Code\nFigma\nAdobe XD\nwww.linkedin.com/in\n/p-harini-7a7b84336\nhttps://www.behance.net/portfoli\no/editor?project_id=243467637"
+            },
+            "matches": [
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 50,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 105,
+                    "title": "Data Scientist",
+                    "company": "AI Solutions",
+                    "location": "Boston, MA",
+                    "requiredSkills": [
+                        "Python",
+                        "Pandas",
+                        "Machine Learning",
+                        "SQL"
+                    ],
+                    "tags": [
+                        "AI",
+                        "DATA",
+                        "RESEARCH"
+                    ],
+                    "icon": "📊",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Pandas",
+                        "Machine Learning",
+                        "SQL"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 106,
+                    "title": "UX/UI Designer",
+                    "company": "Creative Studio",
+                    "location": "London, UK",
+                    "requiredSkills": [
+                        "Figma",
+                        "Sketch",
+                        "Prototyping",
+                        "Wireframing"
+                    ],
+                    "tags": [
+                        "DESIGN",
+                        "CREATIVE",
+                        "ONSITE"
+                    ],
+                    "icon": "🎨",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Sketch",
+                        "Prototyping",
+                        "Wireframing"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 107,
+                    "title": "Product Manager",
+                    "company": "FinTech Co",
+                    "location": "Chicago, IL",
+                    "requiredSkills": [
+                        "Agile",
+                        "Scrum",
+                        "Leadership",
+                        "Communication"
+                    ],
+                    "tags": [
+                        "PRODUCT",
+                        "FINTECH",
+                        "MGMT"
+                    ],
+                    "icon": "📈",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Agile",
+                        "Scrum",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 110,
+                    "title": "Python Developer",
+                    "company": "PyData",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Python",
+                        "Django",
+                        "Flask",
+                        "API"
+                    ],
+                    "tags": [
+                        "PYTHON",
+                        "WEB",
+                        "REMOTE"
+                    ],
+                    "icon": "🐍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Django",
+                        "Flask",
+                        "API"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771842419015
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "RESUME (1).pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "hariniprithivirajan@gmail.com",
+                "phone": "9363081062",
+                "skills": [
+                    "Python",
+                    "HTML",
+                    "CSS",
+                    "Leadership",
+                    "Problem Solving",
+                    "Teamwork",
+                    "Management",
+                    "Design",
+                    "Figma"
+                ],
+                "workSnippet": "OBJECTIVE\nComputer Science Engineering student with a  strong foundation\nin web design,   development and UIUX principles. Skilled in\ncreating responsive, user-centric interfaces using modern web\ntechnologies and driven to apply design thinking and technical",
+                "educationSnippet": "A.V.C. College of Engineering - Mayiladuthurai\nGuru Gana Sambandar  Mission Metric Higher Secondary                  \n        School Mayiladuthurai Class 12 (2021-2023)                            \nB.E Computer Science Engineering (2023-2027)\nGuru Gana Sambandar  Mission Metric Higher Secondary                  \n        School Mayiladuthurai Class 10(2020-2021)                            \nTeamwork\nTime Management\nCreative Thinking\nLeadership\nProblem solving\nEnglish \nTamil\nHindi (read)\nHARINI P\nCOMPUTER SCIENCE AND ENGINEERING\nCompleted One Month Internship Training On UIUX  \nConducted by NoviTech R&D Private Limited.\nParticipated in smart India hackathon-Development Of A\nTravel Related Software App \ncompleted One Month Masterclass On UIUX Conducted by  \nNoviTech R&D Private Limited.\nVS Code\nFigma\nAdobe XD\nwww.linkedin.com/in\n/p-harini-7a7b84336\nhttps://www.behance.net/portfoli\no/editor?project_id=243467637"
+            },
+            "matches": [
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 50,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 105,
+                    "title": "Data Scientist",
+                    "company": "AI Solutions",
+                    "location": "Boston, MA",
+                    "requiredSkills": [
+                        "Python",
+                        "Pandas",
+                        "Machine Learning",
+                        "SQL"
+                    ],
+                    "tags": [
+                        "AI",
+                        "DATA",
+                        "RESEARCH"
+                    ],
+                    "icon": "📊",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Pandas",
+                        "Machine Learning",
+                        "SQL"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 106,
+                    "title": "UX/UI Designer",
+                    "company": "Creative Studio",
+                    "location": "London, UK",
+                    "requiredSkills": [
+                        "Figma",
+                        "Sketch",
+                        "Prototyping",
+                        "Wireframing"
+                    ],
+                    "tags": [
+                        "DESIGN",
+                        "CREATIVE",
+                        "ONSITE"
+                    ],
+                    "icon": "🎨",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Sketch",
+                        "Prototyping",
+                        "Wireframing"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 107,
+                    "title": "Product Manager",
+                    "company": "FinTech Co",
+                    "location": "Chicago, IL",
+                    "requiredSkills": [
+                        "Agile",
+                        "Scrum",
+                        "Leadership",
+                        "Communication"
+                    ],
+                    "tags": [
+                        "PRODUCT",
+                        "FINTECH",
+                        "MGMT"
+                    ],
+                    "icon": "📈",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Agile",
+                        "Scrum",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 110,
+                    "title": "Python Developer",
+                    "company": "PyData",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Python",
+                        "Django",
+                        "Flask",
+                        "API"
+                    ],
+                    "tags": [
+                        "PYTHON",
+                        "WEB",
+                        "REMOTE"
+                    ],
+                    "icon": "🐍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Django",
+                        "Flask",
+                        "API"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771842891237
+        },
+        {
+            "userId": 1771835309964,
+            "fileName": "RESUME (1).pdf",
+            "roleTarget": "software-engineer",
+            "extracted": {
+                "email": "hariniprithivirajan@gmail.com",
+                "phone": "9363081062",
+                "skills": [
+                    "Python",
+                    "HTML",
+                    "CSS",
+                    "Leadership",
+                    "Problem Solving",
+                    "Teamwork",
+                    "Management",
+                    "Design",
+                    "Figma"
+                ],
+                "workSnippet": "OBJECTIVE\nComputer Science Engineering student with a  strong foundation\nin web design,   development and UIUX principles. Skilled in\ncreating responsive, user-centric interfaces using modern web\ntechnologies and driven to apply design thinking and technical",
+                "educationSnippet": "A.V.C. College of Engineering - Mayiladuthurai\nGuru Gana Sambandar  Mission Metric Higher Secondary                  \n        School Mayiladuthurai Class 12 (2021-2023)                            \nB.E Computer Science Engineering (2023-2027)\nGuru Gana Sambandar  Mission Metric Higher Secondary                  \n        School Mayiladuthurai Class 10(2020-2021)                            \nTeamwork\nTime Management\nCreative Thinking\nLeadership\nProblem solving\nEnglish \nTamil\nHindi (read)\nHARINI P\nCOMPUTER SCIENCE AND ENGINEERING\nCompleted One Month Internship Training On UIUX  \nConducted by NoviTech R&D Private Limited.\nParticipated in smart India hackathon-Development Of A\nTravel Related Software App \ncompleted One Month Masterclass On UIUX Conducted by  \nNoviTech R&D Private Limited.\nVS Code\nFigma\nAdobe XD\nwww.linkedin.com/in\n/p-harini-7a7b84336\nhttps://www.behance.net/portfoli\no/editor?project_id=243467637"
+            },
+            "matches": [
+                {
+                    "id": 101,
+                    "title": "Frontend Developer",
+                    "company": "TechCorp",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "React",
+                        "JavaScript",
+                        "CSS",
+                        "HTML"
+                    ],
+                    "tags": [
+                        "REACT",
+                        "REMOTE",
+                        "hiring"
+                    ],
+                    "icon": "💻",
+                    "matchScore": 50,
+                    "missingSkills": [
+                        "React",
+                        "JavaScript"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 105,
+                    "title": "Data Scientist",
+                    "company": "AI Solutions",
+                    "location": "Boston, MA",
+                    "requiredSkills": [
+                        "Python",
+                        "Pandas",
+                        "Machine Learning",
+                        "SQL"
+                    ],
+                    "tags": [
+                        "AI",
+                        "DATA",
+                        "RESEARCH"
+                    ],
+                    "icon": "📊",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Pandas",
+                        "Machine Learning",
+                        "SQL"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 106,
+                    "title": "UX/UI Designer",
+                    "company": "Creative Studio",
+                    "location": "London, UK",
+                    "requiredSkills": [
+                        "Figma",
+                        "Sketch",
+                        "Prototyping",
+                        "Wireframing"
+                    ],
+                    "tags": [
+                        "DESIGN",
+                        "CREATIVE",
+                        "ONSITE"
+                    ],
+                    "icon": "🎨",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Sketch",
+                        "Prototyping",
+                        "Wireframing"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 107,
+                    "title": "Product Manager",
+                    "company": "FinTech Co",
+                    "location": "Chicago, IL",
+                    "requiredSkills": [
+                        "Agile",
+                        "Scrum",
+                        "Leadership",
+                        "Communication"
+                    ],
+                    "tags": [
+                        "PRODUCT",
+                        "FINTECH",
+                        "MGMT"
+                    ],
+                    "icon": "📈",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Agile",
+                        "Scrum",
+                        "Communication"
+                    ],
+                    "scoreClass": "good"
+                },
+                {
+                    "id": 110,
+                    "title": "Python Developer",
+                    "company": "PyData",
+                    "location": "Remote",
+                    "requiredSkills": [
+                        "Python",
+                        "Django",
+                        "Flask",
+                        "API"
+                    ],
+                    "tags": [
+                        "PYTHON",
+                        "WEB",
+                        "REMOTE"
+                    ],
+                    "icon": "🐍",
+                    "matchScore": 25,
+                    "missingSkills": [
+                        "Django",
+                        "Flask",
+                        "API"
+                    ],
+                    "scoreClass": "good"
+                }
+            ],
+            "id": 1771843802428
+        }
+    ],
+    "jobs": [
+        {
+            "id": 101,
+            "title": "Frontend Developer",
+            "company": "TechCorp",
+            "location": "Remote",
+            "requiredSkills": [
+                "React",
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "tags": [
+                "REACT",
+                "REMOTE",
+                "hiring"
+            ],
+            "icon": "💻"
+        },
+        {
+            "id": 102,
+            "title": "Backend Engineer",
+            "company": "DataSystems",
+            "location": "New York, NY",
+            "requiredSkills": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "SQL"
+            ],
+            "tags": [
+                "BACKEND",
+                "NODE",
+                "DB"
+            ],
+            "icon": "⚙️"
+        },
+        {
+            "id": 103,
+            "title": "Full Stack Developer",
+            "company": "StartUp Inc",
+            "location": "San Francisco, CA",
+            "requiredSkills": [
+                "React",
+                "Node.js",
+                "TypeScript",
+                "AWS"
+            ],
+            "tags": [
+                "FULLSTACK",
+                "STARTUP",
+                "EQUITY"
+            ],
+            "icon": "🚀"
+        },
+        {
+            "id": 104,
+            "title": "DevOps Engineer",
+            "company": "CloudScale",
+            "location": "Austin, TX",
+            "requiredSkills": [
+                "Docker",
+                "Kubernetes",
+                "AWS",
+                "CI/CD"
+            ],
+            "tags": [
+                "CLOUD",
+                "INFRA",
+                "REMOTE"
+            ],
+            "icon": "☁️"
+        },
+        {
+            "id": 105,
+            "title": "Data Scientist",
+            "company": "AI Solutions",
+            "location": "Boston, MA",
+            "requiredSkills": [
+                "Python",
+                "Pandas",
+                "Machine Learning",
+                "SQL"
+            ],
+            "tags": [
+                "AI",
+                "DATA",
+                "RESEARCH"
+            ],
+            "icon": "📊"
+        },
+        {
+            "id": 106,
+            "title": "UX/UI Designer",
+            "company": "Creative Studio",
+            "location": "London, UK",
+            "requiredSkills": [
+                "Figma",
+                "Sketch",
+                "Prototyping",
+                "Wireframing"
+            ],
+            "tags": [
+                "DESIGN",
+                "CREATIVE",
+                "ONSITE"
+            ],
+            "icon": "🎨"
+        },
+        {
+            "id": 107,
+            "title": "Product Manager",
+            "company": "FinTech Co",
+            "location": "Chicago, IL",
+            "requiredSkills": [
+                "Agile",
+                "Scrum",
+                "Leadership",
+                "Communication"
+            ],
+            "tags": [
+                "PRODUCT",
+                "FINTECH",
+                "MGMT"
+            ],
+            "icon": "📈"
+        },
+        {
+            "id": 108,
+            "title": "Mobile Developer",
+            "company": "Appify",
+            "location": "Remote",
+            "requiredSkills": [
+                "React Native",
+                "Swift",
+                "Kotlin",
+                "iOS"
+            ],
+            "tags": [
+                "MOBILE",
+                "IOS",
+                "ANDROID"
+            ],
+            "icon": "📱"
+        },
+        {
+            "id": 109,
+            "title": "Java Developer",
+            "company": "Enterprise Corp",
+            "location": "Seattle, WA",
+            "requiredSkills": [
+                "Java",
+                "Spring",
+                "Hibernate",
+                "Microservices"
+            ],
+            "tags": [
+                "JAVA",
+                "ENTERPRISE",
+                "STABLE"
+            ],
+            "icon": "☕"
+        },
+        {
+            "id": 110,
+            "title": "Python Developer",
+            "company": "PyData",
+            "location": "Remote",
+            "requiredSkills": [
+                "Python",
+                "Django",
+                "Flask",
+                "API"
+            ],
+            "tags": [
+                "PYTHON",
+                "WEB",
+                "REMOTE"
+            ],
+            "icon": "🐍"
+        },
+        {
+            "id": 111,
+            "title": "QA Engineer",
+            "company": "QualityFirst",
+            "location": "Denver, CO",
+            "requiredSkills": [
+                "Selenium",
+                "Testing",
+                "Automation",
+                "Java"
+            ],
+            "tags": [
+                "QA",
+                "TESTING",
+                "AUTOMATION"
+            ],
+            "icon": "🔍"
+        },
+        {
+            "id": 112,
+            "title": "Cyber Security Analyst",
+            "company": "SecureNet",
+            "location": "Washington, DC",
+            "requiredSkills": [
+                "Security",
+                "Network",
+                "Linux",
+                "Firewall"
+            ],
+            "tags": [
+                "SECURITY",
+                "GOV",
+                "CLEARANCE"
+            ],
+            "icon": "🔒"
+        },
+        {
+            "id": 113,
+            "title": "Marketing Manager",
+            "company": "GrowthPad",
+            "location": "Remote",
+            "requiredSkills": [
+                "Marketing",
+                "SEO",
+                "Content",
+                "Analytics"
+            ],
+            "tags": [
+                "MARKETING",
+                "GROWTH",
+                "Remote"
+            ],
+            "icon": "📢"
+        },
+        {
+            "id": 114,
+            "title": "Sales Representative",
+            "company": "SalesForce",
+            "location": "New York, NY",
+            "requiredSkills": [
+                "Sales",
+                "CRM",
+                "Communication",
+                "Negotiation"
+            ],
+            "tags": [
+                "SALES",
+                "COMMISSION",
+                "ONSITE"
+            ],
+            "icon": "💼"
+        },
+        {
+            "id": 115,
+            "title": "HR Specialist",
+            "company": "PeopleOps",
+            "location": "Miami, FL",
+            "requiredSkills": [
+                "HR",
+                "Recruiting",
+                "Communication",
+                "Management"
+            ],
+            "tags": [
+                "HR",
+                "PEOPLE",
+                "CULTURE"
+            ],
+            "icon": "👥"
+        },
+        {
+            "id": 116,
+            "title": "Blockchain Developer",
+            "company": "CryptoHub",
+            "location": "Remote",
+            "requiredSkills": [
+                "Solidity",
+                "Blockchain",
+                "Smart Contracts",
+                "Web3"
+            ],
+            "tags": [
+                "CRYPTO",
+                "WEB3",
+                "HIGH PAY"
+            ],
+            "icon": "⛓️"
+        },
+        {
+            "id": 117,
+            "title": "Game Developer",
+            "company": "GameStudio",
+            "location": "Los Angeles, CA",
+            "requiredSkills": [
+                "Unity",
+                "C#",
+                "3D",
+                "Gaming"
+            ],
+            "tags": [
+                "GAMING",
+                "UNITY",
+                "FUN"
+            ],
+            "icon": "🎮"
+        },
+        {
+            "id": 118,
+            "title": "Cloud Architect",
+            "company": "SkyHigh",
+            "location": "Remote",
+            "requiredSkills": [
+                "Azure",
+                "AWS",
+                "Architecture",
+                "Cloud"
+            ],
+            "tags": [
+                "ARCHITECT",
+                "CLOUD",
+                "SENIOR"
+            ],
+            "icon": "🏗️"
+        },
+        {
+            "id": 119,
+            "title": "Network Engineer",
+            "company": "ConnectIt",
+            "location": "Dallas, TX",
+            "requiredSkills": [
+                "Cisco",
+                "Networking",
+                "Routing",
+                "Switching"
+            ],
+            "tags": [
+                "NETWORK",
+                "CISCO",
+                "HARDWARE"
+            ],
+            "icon": "🔌"
+        },
+        {
+            "id": 120,
+            "title": "Technical Writer",
+            "company": "DocuTech",
+            "location": "Remote",
+            "requiredSkills": [
+                "Writing",
+                "Documentation",
+                "Technical",
+                "English"
+            ],
+            "tags": [
+                "WRITING",
+                "DOCS",
+                "FLEXIBLE"
+            ],
+            "icon": "📝"
+        }
+    ],
+    "savedJobs": [
+        {
+            "id": 1771836847030,
+            "title": "Technical Writer",
+            "company": "DocuTech",
+            "location": "Remote",
+            "requiredSkills": [
+                "Writing",
+                "Documentation",
+                "Technical",
+                "English"
+            ],
+            "tags": [
+                "WRITING",
+                "DOCS",
+                "FLEXIBLE"
+            ],
+            "icon": "📝",
+            "matchScore": 25,
+            "missingSkills": [
+                "Documentation",
+                "Technical",
+                "English"
+            ],
+            "scoreClass": "good",
+            "userId": 1771835309964
+        }
+    ]
+}

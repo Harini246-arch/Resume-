@@ -1,0 +1,112 @@
+
+// ... (Existing content of script.js)
+
+// ===== PAGE NAVIGATION UPDATE =====
+pages.jobSearch = document.getElementById('jobSearchPage');
+pages.profile = document.getElementById('profilePage');
+
+// Initialize with dashboard for now if logged in
+if (authToken && currentUser) {
+    updateUserProfileUI();
+    // showPage('upload'); // Or keep default
+}
+
+
+// ===== JOB SEARCH =====
+const jobSearchBtn = document.getElementById('jobSearchBtn');
+const jobSearchInput = document.getElementById('jobSearchInput');
+const searchResultsGrid = document.getElementById('searchResultsGrid');
+
+if (jobSearchBtn) {
+    jobSearchBtn.addEventListener('click', performJobSearch);
+}
+if (jobSearchInput) {
+    jobSearchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') performJobSearch();
+    });
+}
+
+function displayJobCard(job) {
+    return `
+        <div class="job-card">
+            <div class="job-header">
+                <div class="job-icon">${job.icon || '💼'}</div>
+                <div class="match-score ${job.scoreClass || 'medium'}">
+                    <span class="label">${job.company}</span>
+                </div>
+            </div>
+            <h3>${job.title}</h3>
+            <p class="job-company">${job.location}</p>
+            <div class="job-tags">
+                ${job.tags ? job.tags.map(t => `<span class="tag">${t}</span>`).join('') : ''}
+            </div>
+            <button class="apply-btn" style="margin-top:1rem; width:100%; padding:0.5rem; background:#4F46E5; border:none; border-radius:4px; color:white; cursor:pointer;">Apply Now</button>
+        </div>
+    `;
+}
+
+async function performJobSearch() {
+    const query = jobSearchInput.value;
+    searchResultsGrid.innerHTML = '<p style="color:white; text-align:center;">Searching...</p>';
+    
+    try {
+        const res = await fetch(`/api/jobs/search?q=${encodeURIComponent(query)}`);
+        const jobs = await res.json();
+        
+        if (jobs.length === 0) {
+            searchResultsGrid.innerHTML = '<p style="color:white; text-align:center;">No jobs found matching your criteria.</p>';
+            return;
+        }
+        
+        searchResultsGrid.innerHTML = jobs.map(displayJobCard).join('');
+        
+    } catch (e) {
+        searchResultsGrid.innerHTML = '<p style="color:red; text-align:center;">Error searching jobs.</p>';
+    }
+}
+
+
+// ===== PROFILE PAGE =====
+async function loadProfile() {
+    if (!authToken) return;
+    
+    try {
+        const res = await fetch('/api/user/profile', {
+            headers: { 'Authorization': `Bearer ${authToken}` }
+        });
+        const data = await res.json();
+        
+        // Update Profile Info
+        document.querySelector('.profile-name-display').textContent = data.user.name;
+        document.querySelector('.profile-email-display').textContent = data.user.email;
+        document.querySelector('.profile-avatar-xl').textContent = data.user.name.charAt(0).toUpperCase();
+        
+        // Update History
+        const historyList = document.getElementById('historyList');
+        if (data.resumes.length === 0) {
+            historyList.innerHTML = '<p style="color: #9CA3AF;">No resume analysis history yet.</p>';
+        } else {
+            historyList.innerHTML = data.resumes.map(resume => `
+                <div class="history-item" style="background: rgba(255,255,255,0.05); padding: 1rem; border-radius: 8px; margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h4 style="color: white; margin: 0 0 0.5rem 0;">${resume.roleTarget} Role</h4>
+                        <p style="color: #9CA3AF; margin: 0; font-size: 0.9rem;">Uploaded: ${new Date(resume.uploadDate).toLocaleDateString()} • ${resume.fileName}</p>
+                    </div>
+                    <div style="text-align: right;">
+                        <span class="score-badge" style="background: #10B981; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-weight: bold;">Completed</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+    } catch (e) {
+        console.error("Failed to load profile", e);
+    }
+}
+
+// Hook showPage to load profile when 'profile' page is shown
+const originalShowPage = showPage;
+showPage = function(pageName) {
+    originalShowPage(pageName);
+    if (pageName === 'profile') loadProfile();
+};
